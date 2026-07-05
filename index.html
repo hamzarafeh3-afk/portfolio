@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Muhammad Hamza Rafeh | Cyber Security Student &amp; Aspiring SOC Analyst</title>
+<meta name="description" content="Portfolio of Muhammad Hamza Rafeh — BSc Cyber Security student at Birmingham City University. Skilled in networking, risk management, Python and security analysis." />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Background grid canvas -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- ===== NAV ===== -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">&lt;Hamza<span class="accent">/</span>&gt;</a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certs</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="assets/Muhammad-Hamza-Rafeh-CV.pdf" download class="btn btn-outline nav-cv">Download CV</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow"><span class="dot"></span> Hi, my name is</p>
+      <h1>Muhammad Hamza Rafeh</h1>
+      <h2 class="role-line">I'm a <span id="typed-role" class="accent"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">
+        BSc Cyber Security student at Birmingham City University, aiming for First Class Honours.
+        I build a strong foundation in networking, ethical hacking and security operations —
+        one packet capture, one lab, one CTF at a time.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="assets/Muhammad-Hamza-Rafeh-CV.pdf" download class="btn btn-outline">Download CV</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/muhammad-hamza-rafeh-7b377132b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/hamzarafeh3-afk" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:hamzarafeh3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-terminal reveal">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">hamza@security-lab: ~</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="out">Muhammad Hamza Rafeh</p>
+          <p><span class="prompt">$</span> role --current</p>
+          <p class="out">Cyber Security Student | Aspiring SOC Analyst</p>
+          <p><span class="prompt">$</span> status --check</p>
+          <p class="out typing-line">Securing the digital future<span class="blink">_</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-down" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">01.</span> About Me</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I'm a <strong>BSc Cyber Security</strong> student at <strong>Birmingham City University</strong>,
+          currently on track for a <strong>predicted First Class Honours</strong>. My path into security started
+          with an engineering foundation — a <strong>BTEC Level 3 Extended Diploma (D*D*D)</strong> — that shaped
+          how I approach systems: methodically, and with an eye for how things break.
+        </p>
+        <p>
+          Alongside my degree, I'm completing a <strong>Diploma in Artificial Intelligence</strong> at
+          <strong> Sungkyunkwan University</strong> (South Korea), exploring how AI intersects with modern
+          defensive security.
+        </p>
+        <p>
+          My experience spans technical labs and real operational environments — from handling confidential
+          patient data as a healthcare receptionist, to building solutions under pressure at hackathons like
+          <strong> UniHack</strong>. I'm especially drawn to <strong>SOC operations, ethical hacking, and networking</strong>,
+          and I'm currently working toward <strong>CompTIA Security+</strong>.
+        </p>
+        <p>
+          I bring strong problem-solving skills, attention to detail, and a calm head under pressure — traits
+          I'm looking to put to work in a <strong>Cyber Security, SOC Analyst, Network Security or IT Support</strong> role.
+        </p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>First Class</h3>
+          <p>Predicted Honours, BSc Cyber Security</p>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-shield-halved"></i>
+          <h3>Security+</h3>
+          <p>CompTIA Certification — In Progress</p>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>5+</h3>
+          <p>Hands-on security &amp; networking labs</p>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-people-group"></i>
+          <h3>5+ Years</h3>
+          <p>Community &amp; charity volunteering</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section alt-bg">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">02.</span> Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skills-col reveal">
+        <h3><i class="fa-solid fa-microchip"></i> Technical Skills</h3>
+
+        <div class="skill-bar" data-level="85">
+          <div class="skill-head"><span>Cyber Security Fundamentals</span><span class="pct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-level="80">
+          <div class="skill-head"><span>Networking</span><span class="pct">80%</span></div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-level="82">
+          <div class="skill-head"><span>Wireshark</span><span class="pct">82%</span></div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-level="75">
+          <div class="skill-head"><span>Risk Management</span><span class="pct">75%</span></div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-level="78">
+          <div class="skill-head"><span>Python</span><span class="pct">78%</span></div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+        <div class="skill-bar" data-level="70">
+          <div class="skill-head"><span>CAD (Engineering)</span><span class="pct">70%</span></div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-col reveal">
+        <h3><i class="fa-solid fa-comments"></i> Core Strengths</h3>
+        <div class="badge-grid">
+          <span class="badge"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</span>
+          <span class="badge"><i class="fa-solid fa-people-arrows"></i> Teamwork</span>
+          <span class="badge"><i class="fa-solid fa-comment-dots"></i> Communication</span>
+          <span class="badge"><i class="fa-solid fa-user-shield"></i> Security Awareness</span>
+          <span class="badge"><i class="fa-solid fa-clock"></i> Works Well Under Pressure</span>
+          <span class="badge"><i class="fa-solid fa-magnifying-glass"></i> Attention to Detail</span>
+        </div>
+
+        <h3 class="tools-heading"><i class="fa-solid fa-toolbox"></i> Tools &amp; Environments</h3>
+        <div class="badge-grid">
+          <span class="badge tool"><i class="fa-brands fa-python"></i> Python</span>
+          <span class="badge tool"><i class="fa-solid fa-network-wired"></i> Wireshark</span>
+          <span class="badge tool"><i class="fa-brands fa-linux"></i> Kali Linux</span>
+          <span class="badge tool"><i class="fa-solid fa-magnifying-glass-chart"></i> Nmap</span>
+          <span class="badge tool"><i class="fa-solid fa-chart-line"></i> SIEM / Splunk</span>
+          <span class="badge tool"><i class="fa-solid fa-drafting-compass"></i> CAD</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">03.</span> Experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Receptionist (Part-Time)</h3>
+          <span class="timeline-role">Dr Sheikh Surgery</span>
+          <p>
+            Managed confidential patient data, appointment scheduling and front-desk operations in a fast-paced
+            healthcare environment. Developed strong discretion, communication and multi-tasking skills while
+            handling sensitive information under strict confidentiality standards — a mindset that carries
+            directly into data protection and security practice.
+          </p>
+          <div class="tag-row">
+            <span class="mini-tag">Confidentiality</span>
+            <span class="mini-tag">Communication</span>
+            <span class="mini-tag">Data Handling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Hackathon Participant</h3>
+          <span class="timeline-role">UniHack</span>
+          <p>
+            Collaborated in a team to design and build a technical solution within a tight time limit. Contributed
+            to problem framing, rapid prototyping and presenting the final solution — sharpening my ability to
+            perform under pressure and work effectively as part of a technical team.
+          </p>
+          <div class="tag-row">
+            <span class="mini-tag">Teamwork</span>
+            <span class="mini-tag">Rapid Prototyping</span>
+            <span class="mini-tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section alt-bg">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">04.</span> Projects</h2>
+    <p class="section-sub reveal">Self-directed and academic lab projects exploring core security disciplines.</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <i class="fa-solid fa-network-wired project-icon"></i>
+          <span class="mini-tag lab">Lab Project</span>
+        </div>
+        <h3>Network Traffic Analysis using Wireshark</h3>
+        <p>Captured and analyzed live network traffic to identify anomalies, suspicious packets and potential intrusion indicators at the packet level.</p>
+        <div class="tag-row">
+          <span class="mini-tag">Wireshark</span>
+          <span class="mini-tag">TCP/IP</span>
+          <span class="mini-tag">Protocol Analysis</span>
+        </div>
+        <p class="outcome"><i class="fa-solid fa-flag-checkered"></i> Strengthened packet-level analysis and pattern recognition for network-based attacks.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <i class="fa-solid fa-bug project-icon"></i>
+          <span class="mini-tag lab">Lab Project</span>
+        </div>
+        <h3>Vulnerability Assessment Lab</h3>
+        <p>Built a virtual lab environment to scan systems for known vulnerabilities and misconfigurations using industry-standard scanning tools.</p>
+        <div class="tag-row">
+          <span class="mini-tag">Nmap</span>
+          <span class="mini-tag">OpenVAS</span>
+          <span class="mini-tag">Kali Linux</span>
+        </div>
+        <p class="outcome"><i class="fa-solid fa-flag-checkered"></i> Learned to identify, prioritize and report vulnerabilities using a structured assessment methodology.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <i class="fa-brands fa-python project-icon"></i>
+          <span class="mini-tag lab">Self-Directed</span>
+        </div>
+        <h3>Python Security Tool — Port Scanner</h3>
+        <p>Developed a custom Python-based network port scanner to detect open ports and running services on target systems.</p>
+        <div class="tag-row">
+          <span class="mini-tag">Python</span>
+          <span class="mini-tag">Sockets</span>
+          <span class="mini-tag">Threading</span>
+        </div>
+        <p class="outcome"><i class="fa-solid fa-flag-checkered"></i> Deepened network programming knowledge and reinforced Python for security automation.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <i class="fa-solid fa-chart-line project-icon"></i>
+          <span class="mini-tag lab">Lab Project</span>
+        </div>
+        <h3>SIEM Simulation Project</h3>
+        <p>Simulated a Security Operations Center environment by configuring a SIEM to collect, correlate and alert on log data from multiple sources.</p>
+        <div class="tag-row">
+          <span class="mini-tag">SIEM</span>
+          <span class="mini-tag">Log Analysis</span>
+          <span class="mini-tag">Alerting</span>
+        </div>
+        <p class="outcome"><i class="fa-solid fa-flag-checkered"></i> Gained hands-on exposure to SOC workflows, log correlation and incident triage.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-top">
+          <i class="fa-solid fa-key project-icon"></i>
+          <span class="mini-tag lab">Lab Project</span>
+        </div>
+        <h3>Password Cracking Lab</h3>
+        <p>Conducted ethical password-cracking exercises in a controlled lab to understand hashing weaknesses and the importance of strong password policy.</p>
+        <div class="tag-row">
+          <span class="mini-tag">Hashcat</span>
+          <span class="mini-tag">John the Ripper</span>
+          <span class="mini-tag">Kali Linux</span>
+        </div>
+        <p class="outcome"><i class="fa-solid fa-flag-checkered"></i> Learned hash algorithms, brute-force/dictionary attacks, and password policy design.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certifications" class="section">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">05.</span> Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-ring">
+          <span>In<br />Progress</span>
+        </div>
+        <div class="cert-info">
+          <h3>CompTIA Security+</h3>
+          <p>Industry-recognized certification covering core security concepts, risk management, network security and incident response.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education" class="section alt-bg">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">06.</span> Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>BSc (Hons) Cyber Security</h3>
+          <span class="timeline-role">Birmingham City University · Predicted First Class Honours</span>
+          <p>Focused study in cyber security fundamentals, networking, risk management and secure systems design.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Diploma in Artificial Intelligence</h3>
+          <span class="timeline-role">Sungkyunkwan University · South Korea</span>
+          <p>Exploring the intersection of AI and modern defensive security practices.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>BTEC Level 3 Extended Diploma — Engineering</h3>
+          <span class="timeline-role">D*D*D</span>
+          <p>Built a strong analytical and technical foundation, including CAD and systems-based problem solving.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXTRACURRICULAR ===== -->
+<section id="extracurricular" class="section">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">07.</span> Extracurricular &amp; Leadership</h2>
+    <div class="extra-grid">
+      <div class="extra-card reveal">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>BCU Student Computing Association</h3>
+        <p>Active member engaging with peers on technical projects, events and community learning around computing and security.</p>
+      </div>
+      <div class="extra-card reveal">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <h3>Community Charity Volunteer</h3>
+        <p>5+ years volunteering within the local community — building empathy, reliability and a strong sense of civic responsibility.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section alt-bg">
+  <div class="container">
+    <h2 class="section-title reveal"><span class="tag">08.</span> Get In Touch</h2>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p>
+          I'm actively looking for opportunities in <strong>Cyber Security, SOC Analysis, Network Security, IT Support
+          or Graduate Tech roles</strong>. Whether you have an opening, a question, or just want to connect —
+          my inbox is open.
+        </p>
+        <a href="mailto:hamzarafeh3@gmail.com" class="contact-link">
+          <i class="fa-solid fa-envelope"></i> hamzarafeh3@gmail.com
+        </a>
+        <a href="tel:+4407999924813" class="contact-link">
+          <i class="fa-solid fa-phone"></i> 07999 924813
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-hamza-rafeh-7b377132b/" target="_blank" rel="noopener" class="contact-link">
+          <i class="fa-brands fa-linkedin"></i> linkedin.com/in/muhammad-hamza-rafeh-7b377132b
+        </a>
+        <a href="https://github.com/hamzarafeh3-afk" target="_blank" rel="noopener" class="contact-link">
+          <i class="fa-brands fa-github"></i> github.com/hamzarafeh3-afk
+        </a>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <div class="form-row">
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-row">
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-row">
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <a href="#home" class="logo">&lt;Hamza<span class="accent">/</span>&gt;</a>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/muhammad-hamza-rafeh-7b377132b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/hamzarafeh3-afk" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:hamzarafeh3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p>&copy; <span id="year"></span> Muhammad Hamza Rafeh. Built with curiosity and a lot of coffee.</p>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
