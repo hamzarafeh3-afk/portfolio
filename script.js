@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Muhammad Hamza Rafeh — Portfolio interactions
+   Muhammad Hamza Rafeh - Portfolio interactions
    ========================================================================== */
 
 // ---------- Mobile nav toggle ----------
@@ -111,7 +111,7 @@ contactForm.addEventListener('submit', (e) => {
   const message = document.getElementById('message').value;
 
   const subject = encodeURIComponent(`Portfolio enquiry from ${name}`);
-  const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
+  const body = encodeURIComponent(`${message}\n\n- ${name} (${email})`);
   window.location.href = `mailto:hamzarafeh3@gmail.com?subject=${subject}&body=${body}`;
 });
 
