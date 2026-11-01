@@ -63,6 +63,7 @@ skillBars.forEach(bar => skillObserver.observe(bar));
 // ---------- Typed role rotation ----------
 const roles = [
   'a Cyber Security Student',
+  'a Cyber Security Consultant',
   'an Aspiring SOC Analyst',
   'an Ethical Hacking Enthusiast',
   'a Network Security Learner'
